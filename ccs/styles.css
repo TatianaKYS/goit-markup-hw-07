@@ -919,6 +919,7 @@ font-family: 'Roboto', sans-serif;
      display: block;
      margin: 0 auto;
      margin-bottom: 40px;
+     
 
 
 
@@ -933,7 +934,7 @@ font-family: 'Roboto', sans-serif;
         letter-spacing: 0.02em;
         text-align: center;
         color: var(--main-text-title);
-        width: 496px;
+        min-width: 496px;
         display: block;
         margin: 0 auto;
         margin-bottom: 48px;
@@ -955,7 +956,7 @@ font-family: 'Roboto', sans-serif;
             letter-spacing: 0.02em;
             text-align: center;
             color: var(--main-text-title);
-            width: 496px;
+            min-width: 496px;
             display: block;
             margin: 0 auto;
             margin-bottom: 48px;
