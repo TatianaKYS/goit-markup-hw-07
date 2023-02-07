@@ -59,71 +59,75 @@
       </div>
       <div class="mobile-menu js-menu-container">
         <div class="container mobile-menu_container">
-          <button type="button" class="mobile-menu-close-btn js-close-menu">
-            <svg class="mobile-menu-close-icon" width="8" height="8">
-              <use href="./images/sprite.svg#icon-close-modal"></use>
-            </svg>
-          </button>
-          <ul class="mobile">
-            <li class="mobile-menu-list">
-              <a class="mobile-menu-link link" link>Studio</a>
-            </li>
-            <li class="mobile-menu-list">
-              <a class="mobile-menu-link link" href="./portfolio.html"
-                >Portfolio</a
-              >
-            </li>
-            <li class="mobile-menu-list">
-              <a class="mobile-menu-link link" href="">Contacts</a>
-            </li>
-          </ul>
-          <ul class="mobile-contacts list">
-            <li class="mobile-contacts-item">
-              <a class="mobile-phone-number link" href="tel:+11(000)111-11-11"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-            <li class="mobile-contacts-item">
-              <a
-                class="mobile-contact-email link"
-                href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-          </ul>
-          <ul class="mobile-social-list list">
-            <li class="mobile-social-list-item">
-              <a href="" class="mobile-social-list-link">
-                <svg class="mobile-social-list-icon" width="24" height="24">
-                  <use href="./images/sprite.svg#icon-instagram-footer"></use>
-                </svg>
-              </a>
-            </li>
+          <div class="mob-menu-top">
+            <button type="button" class="mobile-menu-close-btn js-close-menu">
+              <svg class="mobile-menu-close-icon" width="8" height="8">
+                <use href="./images/sprite.svg#icon-close-modal"></use>
+              </svg>
+            </button>
+            <ul class="mobile">
+              <li class="mobile-menu-list">
+                <a class="mobile-menu-link link" link>Studio</a>
+              </li>
+              <li class="mobile-menu-list">
+                <a class="mobile-menu-link link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mobile-menu-list">
+                <a class="mobile-menu-link link" href="">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mod-menu-bottom">
+            <ul class="mobile-contacts list">
+              <li class="mobile-contacts-item">
+                <a class="mobile-phone-number link" href="tel:+11(000)111-11-11"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mobile-contacts-item">
+                <a
+                  class="mobile-contact-email link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mobile-social-list list">
+              <li class="mobile-social-list-item">
+                <a href="" class="mobile-social-list-link">
+                  <svg class="mobile-social-list-icon" width="24" height="24">
+                    <use href="./images/sprite.svg#icon-instagram-footer"></use>
+                  </svg>
+                </a>
+              </li>
 
-            <li class="mobile-social-list-item">
-              <a href="" class="mobile-social-list-link">
-                <svg class="mobile-social-list-icon" width="24" height="24">
-                  <use href="./images/sprite.svg#icon-twitter-footer"></use>
-                </svg>
-              </a>
-            </li>
+              <li class="mobile-social-list-item">
+                <a href="" class="mobile-social-list-link">
+                  <svg class="mobile-social-list-icon" width="24" height="24">
+                    <use href="./images/sprite.svg#icon-twitter-footer"></use>
+                  </svg>
+                </a>
+              </li>
 
-            <li class="mobile-social-list-item">
-              <a href="" class="mobile-social-list-link">
-                <svg class="mobile-social-list-icon" width="24" height="24">
-                  <use href="./images/sprite.svg#icon-facebook-f"></use>
-                </svg>
-              </a>
-            </li>
+              <li class="mobile-social-list-item">
+                <a href="" class="mobile-social-list-link">
+                  <svg class="mobile-social-list-icon" width="24" height="24">
+                    <use href="./images/sprite.svg#icon-facebook-f"></use>
+                  </svg>
+                </a>
+              </li>
 
-            <li class="mobile-social-list-item">
-              <a href="" class="mobile-social-list-link">
-                <svg class="mobile-social-list-icon" width="24" height="24">
-                  <use href="./images/sprite.svg#icon-linkedin-footer"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+              <li class="mobile-social-list-item">
+                <a href="" class="mobile-social-list-link">
+                  <svg class="mobile-social-list-icon" width="24" height="24">
+                    <use href="./images/sprite.svg#icon-linkedin-footer"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
@@ -218,6 +222,10 @@
             <li class="studio-third-section-images-list">
               <img
                 class="studio-third-section-images-item"
+                srcset="
+                  ./images/section3/computer.jpg 1x,
+                  ./images/computer@2x.jpg       2x
+                "
                 src="./images/section3/computer.jpg"
                 alt="computer"
                 width="360"
@@ -227,6 +235,10 @@
             <li class="studio-third-section-images-list">
               <img
                 class="studio-third-section-images-item"
+                srcset="
+                  ./images/section3/telephones.jpg 1x,
+                  ./images/telephones@2x.jpg       2x
+                "
                 src="./images/section3/telephones.jpg"
                 alt="telephone"
                 width="360"
@@ -236,6 +248,10 @@
             <li class="studio-third-section-images-list">
               <img
                 class="studio-third-section-images-item"
+                srcset="
+                  ./images/section3/telephone-one.jpg 1x,
+                  ./images/telephone@2x.jpg           2x
+                "
                 src="./images/section3/telephone-one.jpg"
                 alt="telephones"
                 width="360"
@@ -255,6 +271,10 @@
             <li class="studio-fourth-section-images-group">
               <img
                 class="studio-fourth-section-images-item"
+                srcset="
+                  ./images/section4/MarkGuerro.jpg 1x,
+                  ./images/team/Mark.jpg           2x
+                "
                 src="./images/section4/MarkGuerro.jpg"
                 alt="teamMember"
                 width="264"
@@ -301,6 +321,10 @@
             <li class="studio-fourth-section-images-group">
               <img
                 class="studio-fourth-section-images-item"
+                srcset="
+                  ./images/section4/TomFord.jpg 1x,
+                  ./images/team/Tom.jpg         2x
+                "
                 src="./images/section4/TomFord.jpg"
                 alt="teamMember"
                 width="264"
@@ -347,6 +371,10 @@
             <li class="studio-fourth-section-images-group">
               <img
                 class="studio-fourth-section-images-item"
+                srcset="
+                  ./images/section4/CamilaGarcia.jpg 1x,
+                  ./images/team/Camila.jpg           2x
+                "
                 src="./images/section4/CamilaGarcia.jpg"
                 alt="teamMember"
                 width="264"
@@ -393,6 +421,10 @@
             <li class="studio-fourth-section-images-group">
               <img
                 class="studio-fourth-section-images-item"
+                srcset="
+                  ./images/section4/DanielWilson.jpg 1x,
+                  ./images/team/Daniel.jpg           2x
+                "
                 src="./images/section4/DanielWilson.jpg"
                 alt="teamMember"
                 width="264"
