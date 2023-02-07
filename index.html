@@ -27,7 +27,7 @@
           <a class="logotype link" href=""
             >Web<span class="logotype-first-part">Studio</span>
           </a>
-          <ul class="menu list">
+          <ul class="menu menu-nav list">
             <li class="menu-item">
               <a class="menu-link link current" href="">Studio</a>
             </li>
@@ -39,18 +39,92 @@
             </li>
           </ul>
         </nav>
-        <ul class="menu list">
-          <li class="menu-item">
+        <button type="button" class="mobile-menu-open js-open-menu">
+          <svg class="mobile-menu-open_icon" width="42px" height="42px">
+            <use href="./images/sprite.svg#burger-icon"></use>
+          </svg>
+        </button>
+        <ul class="menu-contact list">
+          <li class="menu-contact-item">
             <a class="contact-email link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li class="menu-item">
+          <li class="menu-contact-item">
             <a class="contact-phone-number link" href="tel:+11(000)111-11-11"
               >+11 (000) 111-11-11</a
             >
           </li>
         </ul>
+      </div>
+      <div class="mobile-menu js-menu-container">
+        <div class="container mobile-menu_container">
+          <button type="button" class="mobile-menu-close-btn js-close-menu">
+            <svg class="mobile-menu-close-icon" width="8" height="8">
+              <use href="./images/sprite.svg#icon-close-modal"></use>
+            </svg>
+          </button>
+          <ul class="mobile">
+            <li class="mobile-menu-list">
+              <a class="mobile-menu-link link" link>Studio</a>
+            </li>
+            <li class="mobile-menu-list">
+              <a class="mobile-menu-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mobile-menu-list">
+              <a class="mobile-menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+          <ul class="mobile-contacts list">
+            <li class="mobile-contacts-item">
+              <a class="mobile-phone-number link" href="tel:+11(000)111-11-11"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mobile-contacts-item">
+              <a
+                class="mobile-contact-email link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="mobile-social-list list">
+            <li class="mobile-social-list-item">
+              <a href="" class="mobile-social-list-link">
+                <svg class="mobile-social-list-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#icon-instagram-footer"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="mobile-social-list-item">
+              <a href="" class="mobile-social-list-link">
+                <svg class="mobile-social-list-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#icon-twitter-footer"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="mobile-social-list-item">
+              <a href="" class="mobile-social-list-link">
+                <svg class="mobile-social-list-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#icon-facebook-f"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="mobile-social-list-item">
+              <a href="" class="mobile-social-list-link">
+                <svg class="mobile-social-list-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#icon-linkedin-footer"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -137,7 +211,7 @@
 
       <!-- THIRD SECTION WHAT WE ARE DOING -->
 
-      <section class="studio-third-section section-padding">
+      <section class="studio-third-section section-padding-third">
         <div class="container">
           <h2 class="studio-third-section-header">What are we doing</h2>
           <ul class="studio-third-section-images list">
@@ -189,6 +263,7 @@
               <div class="border-under-picture-description-studio">
                 <h3 class="under-picture-description-heading">Mark Guerrero</h3>
                 <p class="under-picture-description">Product Designer</p>
+
                 <!-- ICONS LESSON 4 -->
                 <ul class="social-list list">
                   <li class="social-list-item">
@@ -368,7 +443,7 @@
       <!-- ===================FIFTH SECTION CUSTOMERS========================================= -->
       <section class="studio-third-section section-padding">
         <div class="container">
-          <h2 class="studio-third-section-header">Customers</h2>
+          <h2 class="studio-third-section-customers">Customers</h2>
           <ul class="customers-list list">
             <li class="customers-list-item">
               <a href="" class="customers-list-link">
@@ -552,6 +627,7 @@
               </svg>
             </span>
           </label>
+
           <!-- third input end -->
           <label class="modal-form-field">
             <span class="modal-form-input-desc">Comment</span>
@@ -577,5 +653,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
